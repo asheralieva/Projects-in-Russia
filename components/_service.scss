@@ -1,0 +1,36 @@
+.service {
+  
+  &__content {
+    h2 {
+      margin-top: 150px;
+      text-align: center;
+      font-size: 27px;
+      color: #000;
+      width: 351px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .service__inner {
+      margin-top: 66px;
+      width: 350px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f7f7f7;
+      .service__item {
+        width: 172px;
+        height: 132px;
+        text-align: center;
+        h4 {
+          margin-top: 30px;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}

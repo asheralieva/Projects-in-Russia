@@ -1,0 +1,43 @@
+.request{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    background-color: #F7654A;
+    font-family: 'Oswald', sans-serif;
+    height: 181px;
+    &__content{
+        display: flex;
+        align-items: center;
+        gap: 398px;
+        .request__inner{
+            color: #fff;
+            width: 562px;
+            h2{
+                font-weight: 400;
+                font-size: 48px;
+                font-family: Oswald;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+        .request__button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 175px;
+            height: 49px;
+            background-color: #fff;
+            
+            img{
+                margin-left: 14px;
+            }
+            button{
+                font-size: 14px;
+                margin-left: 15px;
+                background-color: #fff;
+                border: none;
+            }
+        }
+    }
+}

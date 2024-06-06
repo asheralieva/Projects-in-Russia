@@ -1,0 +1,26 @@
+.hero{
+    background: url(../assets/img/background-img.png) center;
+    height: 740px;
+    background-size: cover;
+    padding-top: 192px;
+    text-align: center;
+    font-family: Oswald;
+    text-transform: uppercase;
+
+    h2{
+        font-size: 64px;
+        line-height: 94.85px;
+        color: #fff;
+        text-align: center;
+        width: 734px;
+        margin-bottom: 35px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 26.68px;
+        text-align: center;
+        color: #fff;
+
+    }
+}
