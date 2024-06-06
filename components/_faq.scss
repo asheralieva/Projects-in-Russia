@@ -1,0 +1,31 @@
+.faq {
+  margin-top: 150px;
+  &__content {
+    h2{
+        font-weight: 500;
+    }
+    .questions {
+        margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .faq__item {
+      display: flex;
+      gap: 15px;
+
+      h3 {
+        color: #f7654a;
+        font-size: 24px;
+        margin: 0;
+      }
+    }
+    .faq__item-open p {
+      margin-top: 30px;
+      font-family: "Open Sans";
+      color: #999;
+      font-size: 16px;
+      text-align: left;
+    }
+  }
+}

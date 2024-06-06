@@ -1,0 +1,32 @@
+.reviews {
+    margin-top: 150px;
+  &__item {
+    width: 350px;
+  }
+  &__items{
+    margin-top: 64px;
+    display: flex;
+    gap: 30px;
+  }
+  &__box {
+    background-color: #f7f7f7;
+    padding-bottom: 38px;
+    img{
+        margin: 28px 0 28px 30px;
+    }
+    p {
+        font-family: "Open Sans";
+        color: #999;
+        font-size: 14px;
+        width: 290px;
+      }
+  }
+  h4{
+    margin-top: 30px;
+    font-size: 21px;
+  }
+  span{
+    color: #F7654A;
+  }
+
+}

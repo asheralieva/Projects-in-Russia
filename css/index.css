@@ -2,11 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
   margin: 0 auto;
+  font-family: "Oswald", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
   padding: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
@@ -89,9 +101,7 @@ button {
   font-family: "Oswald";
 }
 .project__content h2 {
-  text-align: center;
   color: #404149;
-  font-size: 36px;
 }
 .project__content .project__inner {
   display: flex;
@@ -134,12 +144,9 @@ button {
 }
 .request__content .request__inner {
   color: #fff;
-  width: 562px;
 }
 .request__content .request__inner h2 {
-  font-weight: 400;
   font-size: 48px;
-  font-family: Oswald;
 }
 .request__content .request__inner p {
   font-size: 24px;
@@ -163,11 +170,9 @@ button {
 }
 
 .service__content h2 {
+  font-family: "Oswald";
   margin-top: 150px;
-  text-align: center;
-  font-size: 27px;
   color: #000;
-  width: 351px;
 }
 .service__content .services {
   display: flex;
@@ -197,4 +202,124 @@ button {
 .portfolio {
   margin-top: 150px;
   text-align: center;
+}
+
+.faq {
+  margin-top: 150px;
+}
+.faq__content h2 {
+  font-weight: 500;
+}
+.faq__content .questions {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.faq__content .faq__item {
+  display: flex;
+  gap: 15px;
+}
+.faq__content .faq__item h3 {
+  color: #f7654a;
+  font-size: 24px;
+  margin: 0;
+}
+.faq__content .faq__item-open p {
+  margin-top: 30px;
+  font-family: "Open Sans";
+  color: #999;
+  font-size: 16px;
+  text-align: left;
+}
+
+.partners {
+  margin-top: 150px;
+  background-color: #404149;
+  font-family: "Oswald";
+  height: 364px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.partners__content h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.partners__content .partners__img {
+  display: flex;
+  gap: 65px;
+}
+
+.reviews {
+  margin-top: 150px;
+}
+.reviews__item {
+  width: 350px;
+}
+.reviews__items {
+  margin-top: 64px;
+  display: flex;
+  gap: 30px;
+}
+.reviews__box {
+  background-color: #f7f7f7;
+  padding-bottom: 38px;
+}
+.reviews__box img {
+  margin: 28px 0 28px 30px;
+}
+.reviews__box p {
+  font-family: "Open Sans";
+  color: #999;
+  font-size: 14px;
+  width: 290px;
+}
+.reviews h4 {
+  margin-top: 30px;
+  font-size: 21px;
+}
+.reviews span {
+  color: #F7654A;
+}
+
+.contacts {
+  margin-top: 100px;
+}
+.contacts__box {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+.contacts__item {
+  width: 255px;
+  text-align: center;
+}
+.contacts__item h3 {
+  font-size: 24px;
+}
+.contacts__item .desc {
+  margin-top: 36px;
+  margin-bottom: 25px;
+  color: gray;
+}
+.contacts__item a {
+  font-size: 24px;
+  color: #F7654A;
+}
+
+.footer {
+  font-family: "Open Sans";
+  margin-top: 150px;
+  background-color: #404149;
+  height: 82px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.footer__content {
+  display: flex;
+  gap: 639px;
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */

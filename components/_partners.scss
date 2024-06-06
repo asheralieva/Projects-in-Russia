@@ -1,0 +1,20 @@
+.partners{
+    margin-top: 150px;
+    background-color: #404149;
+    font-family: 'Oswald';
+    height: 364px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    &__content{
+        h2{
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+        }
+        .partners__img{
+            display: flex;
+            gap: 65px;
+        }
+    }
+}

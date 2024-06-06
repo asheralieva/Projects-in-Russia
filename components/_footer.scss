@@ -1,0 +1,14 @@
+.footer{
+    font-family: 'Open Sans';
+    margin-top: 150px;
+    background-color: #404149;
+    height: 82px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    &__content{
+        display: flex;
+        gap: 639px;
+        color: #fff;
+    }
+}
